@@ -42,5 +42,16 @@
         ],
         "description": "Viking sticker",
         "price": 34.99
+    },
+    {
+        "id": "5",
+        "title": "Yoda old",
+        "image": "img/products/yoda-old.jpg",
+        "additionalImages": [
+            "https://placekitten.com/203/139",
+            "https://placekitten.com/204/139?2"
+        ],
+        "description": "Yoda old sticker",
+        "price": 99.99
     }
 ]

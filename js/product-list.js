@@ -20,8 +20,8 @@ class ProductList {
     [...products]
       .filter( product => product.title.includes(searchInput.value) )
       .sort( (a, b) => this.sortDirection === 'ascending' 
-                         ? a.price - b.price
-                         : b.price - a.price)
+                         ? b.price - a.price
+                         : a.price - b.price)
       .forEach(product => {
       productListDomString += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                   <div class="card product">
